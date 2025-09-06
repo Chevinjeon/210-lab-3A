@@ -97,21 +97,21 @@ int main() {
     Restaurant b = buildRestaurant(); 
 
     Restaurant c = {
-        "123 Main St, Anytown, USA", // address
-        4,                          // rating
-        true,                       // isOpen
-        2.5,                        // distance
-        {"Burger", "Fries", "Soda"},// menuItems
-        {5.99, 2.49, 1.99}          // itemPrices
+        "123 Main St, Anytown, USA",   // address
+        4,                             // rating
+        true,                          // isOpen
+        2.5,                           // distance
+        {"Burger", "Fries", "Soda"},   // menuItems
+        {5.99, 2.49, 1.99}             // itemPrices
     };
 
     Restaurant d = {
-        "456 Elm St, Othertown, USA", // address
-        5,                          // rating
-        false,                      // isOpen
-        4.0,                        // distance
-        {"Pizza", "Salad", "Water"},// menuItems
-        {8.99, 4.99, 0.00}          // itemPrices
+        "456 Elm St, Othertown, USA",  // address
+        5,                             // rating
+        false,                         // isOpen
+        4.0,                           // distance
+        {"Pizza", "Salad", "Water"},   // menuItems
+        {8.99, 4.99, 0.00}             // itemPrices
     };
 
     // Store and print all
